@@ -51,6 +51,12 @@ textarea {
 	font-size: 16px;
 	font-family: 'Titillium Web', sans-serif;
 	width: 297px;
+	border-color: transparent;
+}
+
+textarea:focus { 
+	outline: none !important;
+	border-color: transparent;
 }
 
 .logo-up {
