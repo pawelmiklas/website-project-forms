@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge 1</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<section>
+		<div class="logo-up">
+			<img src="photo/logo.png" alt="Logo">
+		</div>
+	</section>
+	<main>
+
+		<section class="left">
+			<div class="register">
+				<h1>Register Form</h1>
+				<div class="register__shadow shadow">
+					<form action="#" class="register__shape shape">
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-user fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="text" placeholder="Username" required>
+						</div>
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-unlock fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="password" placeholder="Password" required>
+						</div>
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-unlock fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="password" placeholder="Confirm Password" required>
+						</div>
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-envelope fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="email" placeholder="Email" required>
+						</div>
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-map-marker fa-lg"></i></div>
+							<div class="line"></div>
+							<select name="location" required>
+								<option value="" disabled selected>Your Location</option>
+								<option value="gdansk">Kraków</option>
+								<option value="krakow">Warszawa</option>
+								<option value="poznan">Katowice</option>
+							</select>
+						</div>
+						<div class="shape__check">
+							<input type="checkbox" class="check" required>
+							<p class="check__term">I have read and accept the terms of use.</p>
+						</div>
+						<div class="shape__btn">
+							<input type="submit" value="Sign up" class="btn-green btn-xl">
+						</div>
+					</form>
+
+				</div>
+			</div>
+			<div class="email">
+				<h1 class="email__h1">Send Email</h1>
+				<div class="email__shadow shadow">
+					<form action="#" class="email__shape shape">
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-user fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="text" placeholder="Username" required>
+						</div>
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-envelope fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="email" placeholder="Your email" required>
+						</div>
+						<div class="shape__input--big">
+							<textarea name="text" id="" cols="10" rows="8" required placeholder="Type your message.."></textarea>
+						</div>
+						<div class="shape__check">
+							<input type="checkbox" class="check" required>
+							<p class="check__term">Send a copy to email.</p>
+						</div>
+						<div class="shape__btn">
+							<input type="submit" value="Sign up" class="btn-green btn-xl">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="right">
+			<div class="sign"></div>
+			<h1 class="sign__h1">Sign In Form</h1>
+			<div class="sign__shadow shadow">
+				<form action="#" class="sign__shape shape">
+					<div class="shape__input">
+						<div class="picture"><i class="fas fa-user fa-lg"></i></div>
+						<div class="line"></div>
+						<input type="text" placeholder="Username" required>
+					</div>
+					<div class="shape__input">
+						<div class="picture"><i class="fas fa-unlock fa-lg"></i></div>
+						<div class="line"></div>
+						<input type="password" placeholder="Password" required>
+					</div>
+					<span class="sign__direction">
+						<div class="shape__check check-xs">
+							<input type="checkbox" class="check check-sign" required>
+							<p class="check__term">Remember me.</p>
+						</div>
+						<div class="shape__btn--sign">
+							<input type="submit" value="Sign up" class="btn-green btn-xs btn-sign">
+						</div>
+					</span>
+				</form>
+			</div>
+			<div class="recover">
+				<h1 class="recover__h1">Recover Form</h1>
+				<div class="recover__shadow shadow">
+					<form action="#" class="recover__shape shape">
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-envelope fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="email" placeholder="Enter your email" required>
+						</div>
+						<div class="shape__input">
+							<div class="picture"><i class="fas fa-mobile-alt fa-lg"></i></div>
+							<div class="line"></div>
+							<input type="tel" placeholder="Enter your phone number" required>
+						</div>
+						<span class="direction">
+							<div class="shape__btn--sign">
+								<input type="submit" value="Send" class="btn-green btn-xs btn-recover">
+							</div>
+							<div class="shape__btn--sign">
+								<input type="button" value="Done" class="btn-green btn-xs btn-inactive btn-recover" disabled>
+							</div>
+						</span>
+					</form>
+
+				</div>
+			</div>
+			<div class="subscribe"></div>
+			<h1 class="subscribe__h1">Subscribe Form</h1>
+			<div class="subscribe__shadow shadow">
+				<form action="#" class="subscribe__shape shape">
+					<div class="shape__input">
+						<div class="picture"><i class="fas fa-envelope fa-lg"></i></div>
+						<div class="line"></div>
+						<input type="email" placeholder="Enter your email" required>
+					</div>
+					<span class="direction">
+						<div class="shape__btn--sign">
+							<input type="submit" value="Subscribe" class="btn-green btn-xs btn-recover">
+						</div>
+						<div class="shape__btn--sign">
+							<input type="submit" value="No, Thanks" class="btn-red btn-xs btn-recover" disabled>
+						</div>
+					</span>
+				</form>
+			</div>
+			<div class="logo-down">
+				<img src="photo/logo-below.png" alt="Logo">
+			</div>
+		</section>
+	</main>
+
+</body>
+
+</html>
