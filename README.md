@@ -1,3 +1,4 @@
-# website-project
-Website with few simple form only css and html
-LIVE: https://snaqu.github.io/website-project/
+# website-project-forms
+
+My first website with forms on Github
+LIVE: https://snaqu.github.io/website-project-forms/
